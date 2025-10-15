@@ -4,7 +4,7 @@ import React from 'react';
 
 const ProfilePage: React.FC = () => {
     return (
-        <div className='px-[40px]'>
+        <div className='px-[10px]'>
 
 
 

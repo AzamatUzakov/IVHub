@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       {/* <Comments />
      */}
-      <div className="px-[30px]">
+      <div className="px-[10px]">
         <PostBlock />
       </div>
       <Footer active1={true} />

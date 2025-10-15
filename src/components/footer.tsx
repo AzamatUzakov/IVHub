@@ -10,7 +10,7 @@ interface Props {
 
 export const Footer: React.FC<Props> = ({ active1, active2, active3, active4 }) => {
   return (
-    <footer className="rounded-t-[15px] w-full h-[92px] flex items-center px-[40px] justify-center shadow-[2px_-5px_15px_0px_#555E5817] drop-shadow-[0px_-12px_37px_0px_#E6EBF380]">
+    <footer className="rounded-t-[15px] w-full h-[92px] flex items-center px-[20px] justify-center shadow-[2px_-5px_15px_0px_#555E5817] drop-shadow-[0px_-12px_37px_0px_#E6EBF380]">
       <div className="w-full h-auto flex flex-row justify-between items-center">
         <Link href="/" className="cursor-pointer flex flex-col items-center gap-y-[5px]">
           <svg

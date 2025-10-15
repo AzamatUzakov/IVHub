@@ -16,8 +16,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   return (
     <div>
       <Header />
-
-      <div className="px-[30px]">
+      <div className="px-0">
         <div className="relative flex rounded-[5px] justify-around border border-[#003A73] h-[45px] bg-white p-1 w-full overflow-hidden">
           {tabs.map((tab) => {
             const isActive =
